@@ -28,7 +28,7 @@ def getPath(os_type):
 	for programs in plist:
 		if "xnmap" or "nmap" in programs:
 			file_location = programs
-			print(file_location)
+			#print(file_location)
 			return file_location
 			break
 		else:
